@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: rgba(18, 84, 18, 0.799);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+p.copr {
+    color: white;
+}
+
+.main {
+ 
+    border-radius: 20px;
+    width: 600px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child>a {
+    text-align: center;
+    margin-left: 10px;
+}
