@@ -18,10 +18,10 @@ p.copr {
 }
 
 .main {
- 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
     border-radius: 20px;
     width: 600px;
-    height: 320px;
+    height: 520px;
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
