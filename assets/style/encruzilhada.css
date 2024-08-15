@@ -37,4 +37,6 @@ p.copr {
 .child>a {
     text-align: center;
     margin-left: 10px;
+    text-decoration: none;
+    color: black;
 }
