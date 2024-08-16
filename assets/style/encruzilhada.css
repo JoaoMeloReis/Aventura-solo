@@ -18,6 +18,14 @@ img {
     object-fit: cover;
     border: 1px solid rgba(0, 0, 0, 0.373);
     border-radius: 10px;
+    transition: border 0.3s ease;
+}
+img:hover{
+    
+    transform: scale(1.2);
+}
+.child1>a:hover{
+    color: rgba(68, 68, 68, 0.826) ;
 }
 
 p.copr {
@@ -40,6 +48,7 @@ p.copr {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: 0.3s ease;
 }
 
 .child1>a {
