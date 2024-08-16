@@ -25,10 +25,11 @@ p.copr {
 }
 
 .main {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
     border-radius: 20px;
     width: 600px;
-    height: 520px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
