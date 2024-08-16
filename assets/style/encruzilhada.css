@@ -12,6 +12,9 @@ h1 {
     color: white;
 }
 
+img {
+    width: 100px;
+}
 
 p.copr {
     color: white;
@@ -28,15 +31,16 @@ p.copr {
     text-align: center;
 }
 
-.child {
+.child1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.child>a {
+.child1>a {
     text-align: center;
     margin-left: 10px;
     text-decoration: none;
     color: black;
 }
+
