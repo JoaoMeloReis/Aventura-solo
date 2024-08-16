@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: rgba(18, 84, 18, 0.799);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 10px;
+    transition: border 0.3s ease;
+}
+img:hover{
+    
+    transform: scale(1.2);
+}
+.child1>a:hover{
+    color: rgba(68, 68, 68, 0.826) ;
+}
+
+p.copr {
+    color: white;
+}
+
+.main {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.child1>a {
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.child2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
