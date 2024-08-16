@@ -44,3 +44,9 @@ p.copr {
     color: black;
 }
 
+.child2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
