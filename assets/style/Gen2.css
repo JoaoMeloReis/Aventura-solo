@@ -44,6 +44,10 @@ p.copr {
     text-align: center;
 }
 
+#centro {
+    justify-content: center;
+}
+
 .child1 {
     display: flex;
     justify-content: space-around;
