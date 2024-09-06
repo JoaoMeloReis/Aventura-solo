@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    margin-left: 10% ;
+}
+
+select {
+    background-color: #EFEFEF;
+    height: 21px;
+    border-radius: 2px;
+}
